@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website Travel</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/Travel.css" />
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top  ">
+        <div class="container">
+          <a class="navbar-brand" href="#"> Travel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link p-2 p-lg-3 links" href="#"  id="home"  >Home</a></li>
+              <li class="nav-item"    >
+                <a class="nav-link p-2 p-lg-3  links2" href="#About"  >About</a></li>
+              <li class="nav-item">
+                <a class="nav-link p-2  p-lg-3 links3 " href="#Discover">Discover</a></li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3  links4" href="#Place">Place</a></li>
+                <li><i class="bi bi-brightness-high-fill change-theme d-flex " id="toggleDark"></i> 
+            </ul>
+        </div>
+      </nav>
+       <!--end navbar-->
+       <!--start Landing-->
+       <div class="landing pt-5 pb-5 ">
+         <div class="container d-flex justify-content-between align-items-center  me-3">
+
+          <div class="col-lg-6  ">
+          <div class="home__data col-lg-6 ">
+              <span class="home__data-subtitle  ">Discover your place</span>
+              <h1 class="home__data-title pt-3 pb-3 ">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
+              <a href="#" class="button ">Explore</a>
+          </div>
+          <div class="social-icons  d-flex  align-items-center ">
+            <a href="#"><i class="fa-brands fa-facebook-f  pe-3  "></i></a>
+            <a href="#"><i class="fa-brands fa-instagram pe-3  "></i></a>
+            <a href="#"><i class="fa-brands fa-twitter pe-3  "></i></a>
+            </div>
+        </div>
+        <div class="col-lg-6 pb-4 photo1">
+          <div class="home__info">
+                <span class="home__info-title">5 best places to visit <br> More <i class="fa-solid fa-arrow-right fs-6 ps-2 pt-3 "></i>  </span>
+                </a>
+    
+            <div class="home__info-overlay">
+                <img src="/images/home2.jpg" alt="" class="home__info-img">
+            </div>
+        </div>
+        </div>
+        </div>
+       </div>
+       <!--end Landing-->
+       <!--start About-->
+      <div class="about pt-5 pb-5 " id="About">
+      <div class="container me-3 ">
+        <div class="row">
+
+          <div class="col-lg-6 text ">
+           <div class="about__text pt-5 pb-5 ">
+            <h2>More Information <br> About The Best Beaches</h2>
+            <p class=" pt-4 pb-4 lh-base ">You can find the most beautiful and pleasant places at the best 
+              prices with special discounts, you choose the place we will guide you all the way to wait, get your 
+              place now.</p>
+            <a href="#" class="button ">Reserve a place</a>
+           </div>
+          </div>
+
+          <div class="col-lg-6 pt-4  imgess ">
+           <img src="./images/about1.jpg" alt="" class="about_img1" >
+           <img src="./images/about2.jpg" alt="" class="about_img2" >
+          </div>
+        </div>
+      </div>
+      </div>
+       <!--end About-->
+      <!--Start Discover  -->
+      <div class="   discover  " id="Discover">
+        <div class=" discover__container container  swiper-container  d-flex justify-content-center">
+          <div class="content-discover">
+            <h2 class="section__title">Discover the most <br> attractive places
+              <br><a href="#" class="button ">Discover More</a></h2>
+          </div>
+         
+          <div class="row   ">
+      <div  id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="col-lg-4">
+              <div class="discover__card swiper-slide">
+                  <img src="./images/discover1.jpg" alt="" class="discover__img">
+                  <div class="discover__data">
+                      <h2 class="discover__title">Bali</h2>
+                      <span class="discover__description">24 tours available</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-lg-4">
+              <div class="discover__card swiper-slide">
+                  <img src="./images/discover2.jpg" alt="" class="discover__img">
+                  <div class="discover__data">
+                      <h2 class="discover__title">Bali</h2>
+                      <span class="discover__description">24 tours available</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-lg-4">
+              <div class="discover__card swiper-slide">
+                  <img src="./images/discover3.jpg" alt="" class="discover__img">
+                  <div class="discover__data">
+                      <h2 class="discover__title">Bali</h2>
+                      <span class="discover__description">24 tours available</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev    " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next  " type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next" >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        </div>
+        </div>
+      </div>
+       <!--End Discover-->
+      <!--Start Experience-->
+      <div class="experience pb-5 pt-5  ">
+        <div class="container  me-3 ">
+          <h2 class="section-title1"> With Our Experience <br>We Will Serve You</h2>
+          <div class="box">
+            <div class="er-content">
+              <h2>20</h2>
+              <span class="description"> Year <br> Experience</span>
+            </div>
+          
+            <div class="er-content">
+              <h2>75</h2>
+              <span class="description"> Complete <br> tours</span>
+            </div>
+          
+            <div class="er-content">
+              <h2>650+</h2>
+              <span class="description"> Tourist <br> Destination</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 colom col-md-12 text-center  ">
+              <div class="img-grid1">
+               <img src="./images/experience1.jpg" alt="" class="photo1"   >
+               <img src="./images/experience2.jpg" alt="" class="photo2">
+             </div>
+             </div>
+            </div>
+          </div>
+       </div>
+       <!--End  Experience-->
+       <!--Start  Video-->
+       <div class="video pb-5 pt-5  ">
+        <div class="container  ">
+          
+          <div class="section">
+          <h2 class="section-title"> Video Tour</h2>
+          <p>Find out more with our video of the most beautiful and <br> 
+            pleasant places for you and your family.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-12  sec ">
+              <div class="video_content pt-3 ">
+                <video src="./video/video (34).mp4" id="video-file"   ></video>
+              </div>
+              <button class=" video__button" id="video-button"><i class="fa-solid fa-play " id="video-icon" ></i></button>
+            </div>
+          </div>
+        </div>
+       </div>
+       <!--End  Video-->
+       <!--End  Places-->
+       <div class="places pb-5 pt-5 "  id="Place"      >
+        <h2 class="section-title text-center "> Choose Your Place</h2>
+        <div class="container me-3 ">
+        <div class="row place-da   ">
+          <div class="col-lg-4 col-md-6 col-sm-6  colom ">
+            <div class="box pb-4 pt-4 ">
+              <img src="./images/place1.jpg" class="imge"  alt="">
+
+             <div class="data">
+              <i class="fa-regular fa-star"></i>
+              <span class="number-rat">4,8</span>
+             </div>
+
+              <div class="cont">
+              <h4>Bali</h4>
+              <span class="title">Indonesia</span>
+              <span class="price">$2499</span>
+              </div>
+
+             <button class="button">
+              <i class="fa-solid fa-arrow-right  Arrow  "  ></i>
+             </button>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6  colom ">
+            <div class="box pb-4 pt-4 ">
+              <img src="./images/place2.jpg" class="imge"  alt="">
+
+             <div class="data">
+              <i class="fa-regular fa-star"></i>
+              <span class="number-rat">4,8</span>
+             </div>
+
+              <div class="cont">
+              <h4>Bora Bora</h4>
+              <span class="title">Polinesia</span>
+              <span class="price">$1599</span>
+              </div>
+
+             <button class="button">
+              <i class="fa-solid fa-arrow-right  Arrow  "  ></i>
+             </button>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6  colom ">
+            <div class="box pb-4 pt-4 ">
+              <img src="./images/place3.jpg" class="imge"  alt="">
+
+             <div class="data">
+              <i class="fa-regular fa-star"></i>
+              <span class="number-rat">4,8</span>
+             </div>
+
+              <div class="cont">
+              <h4>Hawaii</h4>
+              <span class="title">EE.UU</span>
+              <span class="price">$3399</span>
+              </div>
+
+             <button class="button">
+              <i class="fa-solid fa-arrow-right  Arrow  "  ></i>
+             </button>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6  colom ">
+            <div class="box pb-4 pt-4 ">
+              <img src="./images/place4.jpg" class="imge"  alt="">
+
+             <div class="data">
+              <i class="fa-regular fa-star"></i>
+              <span class="number-rat">4,8</span>
+             </div>
+
+              <div class="cont">
+              <h4>Whitehaven</h4>
+              <span class="title">Australia</span>
+              <span class="price">$2499</span>
+              </div>
+
+             <button class="button">
+              <i class="fa-solid fa-arrow-right  Arrow  "  ></i>
+             </button>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6  colom ">
+            <div class="box pb-4 pt-4 ">
+              <img src="./images/place5.jpg" class="imge"  alt="">
+
+             <div class="data">
+              <i class="fa-regular fa-star"></i>
+              <span class="number-rat">4,8</span>
+             </div>
+
+              <div class="cont">
+              <h4>Hvar</h4>
+              <span class="title">Croacia</span>
+              <span class="price">$2779</span>
+              </div>
+
+             <button class="button">
+              <i class="fa-solid fa-arrow-right  Arrow  "  ></i>
+             </button>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6  colom ">
+            <div class="box  pb-4 pt-4  ">
+              <img src="./images/place1.jpg" class="imge"  alt="">
+
+             <div class="data">
+              <i class="fa-regular fa-star"></i>
+              <span class="number-rat">4,8</span>
+             </div>
+
+              <div class="cont">
+              <h4>Bali</h4>
+              <span class="title">Indonesia</span>
+              <span class="price">$2499</span>
+              </div>
+
+             <button class="button">
+              <i class="fa-solid fa-arrow-right  Arrow  "  ></i>
+             </button>
+
+            </div>
+          </div>
+        </div>
+        </div>
+       </div>
+ <!--End  Places-->
+ <!--start subscribe-->
+    <div class="subscribe pt-5 pb-5">
+     <div class="container d-flex justify-content-center align-items-center     ">
+      <div class="row">
+        <div class="col-lg-12">
+       
+          <div class="sub_contant">
+          <h2 class="title_sub pb-4 ">Subscribe Our <br> Newsletter</h2>
+          <p class="pragraph_sub">Subscribe to our newsletter and get a 
+            special 30% discount.</p>
+
+            <div class="form">
+              <input type="email" placeholder="Enter email" class="input_sub">
+              <button class="button">
+                Subscribe
+            </button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+     </div>
+    </div>
+ <!--End  subscribe-->
+ <!--Start sponsor-->
+ <div class="sponser  pt-5 pb-5">
+  <div class="container me-3 ">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 pb-3 cole  ">
+        <img src="./images/sponsors1.png" alt="">
+      </div>
+      <div class="col-lg-3  col-md-6 pb-3  cole">
+        <img src="./images/sponsors2.png" alt="">
+      </div>
+      <div class="col-lg-3  col-md-6 pb-3 cole ">
+        <img src="./images/sponsors3.png" alt="">
+      </div>
+      <div class="col-lg-3  col-md-6 pb-3 cole ">
+        <img src="./images/sponsors4.png" alt="">
+      </div>
+    </div>
+  </div>
+ </div>
+ <!--End  sponsor-->
+<!--Start footer -->
+<div class="footer pt-5 pb-5  ">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 pb-2 ">
+        <div class="text-foot">
+        <a href="#" class="footer__logo  fw-bold fs-3">Travel</a>
+        <h6 class="footer__description  pt-2 pb-3">Travel you choose the <br> destination, 
+          we offer you the <br> experience.</h6>
+      </div>
+      <div class="social-icons  d-flex  align-items-center ">
+      <a href="#"><i class="fa-brands fa-facebook-f  pe-3 "></i></a>
+      <a href="#"><i class="fa-brands fa-instagram pe-3  "></i></a>
+      <a href="#"><i class="fa-brands fa-twitter pe-3  "></i></a>
+      </div>
+    </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 pb-2 "> 
+    <div class="text-foot">
+      <h3 class="footer__title fw-bold">About</h3>
+      <ul>
+          <li><a href="#" class="footer__link ">About Us</a></li>
+          <li><a href="#" class="footer__link ">Features</a></li>
+          <li><a href="#" class="footer__link ">New & Blog</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6  pb-2 "> 
+    <div class="text-foot">
+      <h3 class="footer__title  fw-bold ">Company</h3>
+      <ul>
+          <li><a href="#" class="footer__link ">Team</a></li>
+          <li><a href="#" class="footer__link ">Plan y Pricing</a></li>
+          <li><a href="#" class="footer__link ">Become a member</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6  pb-2 "> 
+    <div class="text-foot">
+      <h3 class="footer__title fw-bold  ">Support</h3>
+      <ul>
+          <li><a href="#" class="footer__link ">FAQs</a></li>
+          <li><a href="#" class="footer__link  ">Support Center</a></li>
+          <li><a href="#" class="footer__link  ">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+<!--end footer -->
+ <!--========== SCROLL REVEAL ==========-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/main.js"> </script>
+</body>
+</html>
